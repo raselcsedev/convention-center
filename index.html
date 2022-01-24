@@ -18,7 +18,7 @@
         <!-- NAVBAR START -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand fw-bold" href="#">Evario Events Centre</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -28,10 +28,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#event">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#package">Packages</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -55,10 +55,10 @@
               <div class="carousel-item active">
                 <img height="450rem"  src="images/banner-2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block d-md-block">
-                  <h1 class="text-success">The perfect venue for your <br> next event</h1>
-                  <p class="text-success">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                  <button type="button" class="btn btn-success text-uppercase h-50">
-                      <a class="text-decoration-none text-white" href="">Buy now</a>
+                  <h1 class="text-white">The perfect venue for your <br> next event</h1>
+                  <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <button type="button" class="btn bg-white h-50">
+                      <a class="text-decoration-none text-primary fw-bold px-3" target="_blank" href="https://www.linkedin.com/in/md-rasel-1a9957174/">Book Now</a>
                     </button>
                 </div>
               </div>
@@ -84,6 +84,27 @@
     </header>
    <main>
 
+    <!-- EVENT TOGETHER PART START -->
+    <section class="container my-5">
+      <div id="event" class="card border-0 rounded-top shadow-lg my-3" >
+        <div class="row g-0">
+          <div class="col-lg-6 col-md-4 col-12">
+            <img src="images/events.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-6 col-md-8 col-12 d-flex align-items-lg-center">
+            <div class="card-body">
+              <h2 class="card-title text-uppercase fw-bold">Let's <span class="text-warning">Event</span> Together</h2>
+              <p class="card-text text-wrap text-black">Featuring 18 foot ceilings, there is ample space for business or leisure functions. The Evario Events Centre at Holiday Inn Edmonton South-Ellerslie Road offers meeting and conference rooms with modern technology, personalized service and various catering options.</p>
+              <h5 class="text-truncate">
+                <i class="fab fa-angellist"></i>
+                Next Event With Evario </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EVENT TOGETHER PART FINISH -->
+
     <!-- TOAST SECTION START -->
 
     <section class="container position-absolute">
@@ -102,12 +123,12 @@
 
     
 
-    <!-- OUR PACKAGE SECTION START -->
+    <!-- OUR PACKAGES SECTION START -->
 
     <section class="container my-5">
-      <h1 class="text-center">Our Package</h1>
-      <div class="row my-5">
-        <div class="col-lg-3 col-md-6 col-sm-12 p-4 mt-lg-5">
+      <h1 id="package" class="text-center mt-lg-5">Our Package</h1>
+      <div  class="row my-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-4 ">
           <div class="card border-0">
             <div class="card-body">
               <h1>$300</h1>
@@ -143,32 +164,32 @@
                   Per day bill
                 </label>
               </div>
-              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2">Choose plan</a>
+              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2 fw-bold">Choose plan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 p-4 mt-lg-5">
           <div class="card border-0">
             <div class="card-body">
-              <h1>$300</h1>
-              <h1>Business fair</h1>
-              <p class="card-text">For most businesses event like book fair, craft fair.</p>
+              <h1>$500</h1>
+              <h1>wedding basic</h1>
+              <p class="card-text">For weddings with basic plan and limited item</p>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
                 <label class="form-check-label" for="flexCheckDefault">
-                  Limited space access
+                  Full space access
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Security facility
+                  Food arrangement
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Event support
+                  Mangement support
                 </label>
               </div>
               <div class="form-check">
@@ -180,10 +201,10 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Per day bill
+                  Billed as shift
                 </label>
               </div>
-              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2">Choose plan</a>
+              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2 fw-bold">Choose plan</a>
             </div>
           </div>
         </div>
@@ -200,81 +221,81 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
                 <label class="form-check-label" for="flexCheckDefault">
-                  Limited space access
+                  Full space access
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Security facility
+                  Dedicated team
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Event support
+                  Buffet food
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Decoration design
+                  premium Decoration
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Per day bill
+                  pay as plan
                 </label>
               </div>
-              <a href="#" class="btn bg-white text-primary text-center rounded-pill w-100 mt-2">Choose plan</a>
+              <a href="#" class="btn bg-white text-primary text-center rounded-pill w-100 mt-2 fw-bold">Choose plan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 p-4 mt-lg-5">
           <div class="card border-0">
             <div class="card-body">
-              <h1>$300</h1>
-              <h1>Business fair</h1>
-              <p class="card-text">For most businesses event like book fair, craft fair.</p>
+              <h1>$1200</h1>
+              <h1>Corporate event</h1>
+              <p class="card-text">For most corporate business events</p>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
                 <label class="form-check-label" for="flexCheckDefault">
-                  Limited space access
+                  Full space access
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Security facility
+                  Dedicated team
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Event support
+                  Buffet food
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Decoration design
+                  premium Decoration
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                 <label class="form-check-label" for="flexCheckChecked">
-                  Per day bill
+                  pay as plan
                 </label>
               </div>
-              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2">Choose plan</a>
+              <a href="#" class="btn bg-danger bg-opacity-25 text-primary text-center rounded-pill w-75 mt-2 fw-bold">Choose plan</a>
             </div>
           </div>
         </div>
       </div>
 
     </section>
-    <!-- OUR PACKAGE SECTION FINISH -->
+    <!-- OUR PACKAGES SECTION FINISH -->
 
     <!-- FREQUENTLY ASK QUESTIONS STRAT -->
 
@@ -343,6 +364,8 @@
     <!-- FREQUENTLY ASK QUESTIONS FINISH -->
 
     <!-- SEE MORE & DO MORE SECTION START -->
+
+
 
 
     <!-- SEE MORE & DO MORE SECTION FINISH -->
